@@ -1,0 +1,326 @@
+.menu {
+    height: 100px;
+    background-color: #B2D6FF;    /* Medium blue */
+}
+
+.sidebar {
+    height: 300px;
+    background-color: #F09A9D;    /* Red */
+}
+
+.content {
+    height: 500px;
+    background-color: #F5CF8E;    /* Yellow */
+}
+
+.footer {
+    height: 200px;
+    background-color: #D6E9FE;    /* Light blue */
+}
+.sidebar {
+    float: left;                  /* Add this */
+    width: 200px;
+    height: 300px;
+    background-color: #F09A9D;
+}
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+.content {
+    width: 650px;                 /* Add this */
+    height: 500px;
+    background-color: #F5CF8E;
+}
+.content {
+    float: left;                  /* Add this */
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E;
+}
+.page {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;  /* Add this */
+}
+.footer {
+    clear: both;            /* Add this */
+    height: 200px;
+    background-color: #D6E9FE;
+}
+.page {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;             /* Add this */
+    background-color: #EAEDF0;    /* Add this */
+}
+.page {
+    width: 900px;
+    margin: 0 auto;
+}.column {
+     float: left;
+     width: 31%;
+     margin: 20px 1.15%;
+     height: 160px;
+     background-color: #B2D6FF;}
+
+
+
+
+/* Medium blue */
+.footer {
+    overflow: hidden;
+    background-color: #D6E9FE;
+}
+.content {
+    padding: 20px;
+}
+
+.article-image {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;}
+.avatar {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #D6E9FE;
+}
+
+.username {
+    margin-top: 30px;
+}
+
+.comment {
+    margin: 10px;
+    overflow: hidden;  /* This is important */
+}
+h1, p {
+    background-color: #DDE0E3;    /* Light gray */
+}
+
+em, strong {
+    background-color: #B2D6FF;    /* Light blue */
+}
+em, strong {
+    background-color: #B2D6FF;
+    display: block;
+}
+em, strong {
+    background-color: #B2D6FF;
+    display: inline;             /* This is the default for em and strong */
+}
+h1 {
+    padding: 50px;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p {
+    padding: 20px 10px;  /* Vertical  Horizontal */
+}
+p {
+    padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+}
+h1 {
+    padding: 50px;
+    border: 1px solid #5D6063;
+}
+{border-bottom: 1px solid #5D6063;}
+p {
+    padding: 20px 0 20px 10px;
+    margin-bottom: 50px;          /* Add this */
+}
+strong {
+    margin: 50px;
+}
+p {
+    padding: 20px 0 20px 10px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+}
+div {
+    /* [Existing Declarations] */
+    width: 200px;
+}
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+    width: 200px;
+    box-sizing: border-box;  /* Add this */
+}
+body {
+    text-align: center;
+}
+
+
+div {
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+
+    width: 200px;
+    box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.synopsis {
+    color: #7E8184;        /* Light gray */
+    font-style: italic;
+}
+.button {
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+.page {
+    width: 600px;
+    margin: 0 auto;
+}
+.call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;    /* Yellow */
+}
+.synopsis em {
+    font-style: normal;
+}
+.article h2 .subheading em {
+    /* Special styles */
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+a:visited:hover {
+    color: orange;
+}
+a:visited:active {
+    color: red;
+}
+.button:link,                 /* Change this */
+.button:visited {             /* Change this */
+    display: block;             /* Add this */
+    text-decoration: none;      /* Add this */
+
+    color: #FFF;                /* The rest is the same */
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;}
+.button:hover,
+.button:visited:hover {
+    color: #FFF;
+    background-color: #76AEED;  /* Light blue */
+}
+.button:active,
+.button:visited:active {
+    color: #FFF;
+    background-color: #5995DA;  /* Blue */
+}
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: #EEB75A;     /* Yellow */
+}
+p:last-of-type {
+    margin-bottom: 50px;
+}
+p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+}
+.page > p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+}
+#button-2 {
+    color: #5D6063;  /* Dark gray */
+}
+#button-2,
+#button-3,
+#checkout-button,
+#menu-bar-call-to-action {
+    color: #5D6063;
+}
+.call-to-action:link,
+.call-to-action:visited {
+    background-color: #D55C5F;    /* Red */
+}
+#button-2 {
+    background-color: #D55C5F;    /* Red */
+}
+
+
+
+
+
+
+
+
+
+
+
+
